@@ -8,9 +8,6 @@
     "lint": "eslint *.js example/*.js test/*.js",
     "test": "nyc --statements 100 -- mocha -- --check-leaks --timeout 3000"
   },
-  "dependencies": {
-    "aws-sdk": "~2.631.0"
-  },
   "devDependencies": {
     "coveralls": "^3.0.7",
     "eslint": "^6.8.0",
